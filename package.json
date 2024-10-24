@@ -1,0 +1,23 @@
+{
+    "name": "shell-history-cleaner",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {
+      "electron": "^28.2.1"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prompt":"1.7.0"
+    },
+    "build": {
+        "mac": {
+          "hardenedRuntime": true,
+          "gatekeeperAssess": false,
+          "category": "public.app-category.utility"
+        }
+           
+    }
+  }
+  
